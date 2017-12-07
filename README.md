@@ -1,0 +1,1 @@
+Create a slider with 3 students (use random photos and text for now) that are on a continuous loop when a customer is on the homepage. You can make this look how you wish, but there should be a way of manual scrolling as well. (e.g - https://wplift.com/plugin/wp-review-slider-pro) 

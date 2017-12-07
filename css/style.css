@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #d7d7d7;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.reviews {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.reviews .owl-carousel {
+	width: 100%;
+	cursor: move;
+}
+.reviews .owl-carousel .item {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-top: 5px solid #4e4059;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reviews .owl-carousel .item h3 {
+	color: #4e4059;
+}
+.reviews .owl-carousel .item p {
+	color: #4e4059;
+	font-family: "Roboto", sans-serif;
+	font-weight: 100;
+	font-size: 13 px;
+}
+.reviews .owl-carousel .item img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto 30px;
+}
+.reviews h2 {
+	color: #ffffff;
+	font-size: 33px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.reviews .owl-dots {
+	margin: 20px auto 0;
+	/*for centering the dots*/
+	text-align: center;
+}
+.reviews .owl-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: #885796;
+	margin-right: 5px;
+	display: inline-block;
+}
+.reviews .owl-dot.active {
+	background: #ffffff;
+}
+.reviews .owl-dots.disabled {
+	display: block !important;
+}
+
