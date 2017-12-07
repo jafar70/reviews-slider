@@ -4,7 +4,6 @@ $(document).ready(function() {
 		dots: true,
 		loop: true,
 		autoplay: true,
-		autoplayTimeout: 5000,
 		margin: 20,
 		slideSpeed: 1000,
 		animateIn: "fadeIn",
